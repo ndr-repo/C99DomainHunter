@@ -18,3 +18,11 @@ pwsh ./C99DomainHunter.ps1 targetDomain.tld
 ## Visualization in AuraDB
   - Import the enriched CSV results using the included DoH graph model
   - Create a dashboard using the included Cypher queries
+### Visualization Panel - Unique Resolutions
+- Displays top 10 hosts with most unique resolved DNS entries
+
+```
+MATCH (n:Name)-[r:Resolves]->(d:Data)
+RETURN d.data as name, count(DISTINCT n.name) AS uniqueResolvedCount 
+ORDER BY uniqueResolvedCount DESC LIMIT 10
+```
