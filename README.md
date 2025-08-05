@@ -11,7 +11,10 @@ git clone https://github.com/ndr-repo/C99DomainHunter.git
 - Run the collection & enrichment script for your target domain.
   - Downloads results from [C99.nl Subdomain Finder API](https://api.c99.nl/).
   - Enriches results with DNS type ALL resolutions via [DoH](https://datatracker.ietf.org/doc/html/rfc8484).
-  - Parses results and saves enriched data to CSV. 
+  - Parses results and saves enriched data to CSV.
+```
+pwsh ./C99DomainHunter.ps1 targetDomain.tld
+```
 
 - OPTIONAL: Visualization in AuraDB
   - Import the enriched CSV results using the included DoH graph model
