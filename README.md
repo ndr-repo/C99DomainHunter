@@ -12,6 +12,7 @@ git clone https://github.com/ndr-repo/C99DomainHunter.git
   - Downloads results from [C99.nl Subdomain Finder API](https://api.c99.nl/).
   - Enriches results with DNS type ALL resolutions via [DoH](https://datatracker.ietf.org/doc/html/rfc8484).
   - Parses results and saves enriched data to CSV.
+    - Results are saved to the log folder inside your C99DomainHunter directory 
 ```
 pwsh ./C99DomainHunter.ps1 targetDomain.tld
 ```
