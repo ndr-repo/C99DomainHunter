@@ -22,6 +22,7 @@ pwsh ./C99DomainHunter.ps1 targetDomain.tld
   - Import the enriched CSV results using the included DoH graph model
   - Create a dashboard using the included Cypher queries
 <img width="1700" height="1135" alt="image" src="https://github.com/user-attachments/assets/d54b3baa-f07c-4a28-a503-69a0abcb7d7c" />
+<img width="2324" height="1144" alt="image" src="https://github.com/user-attachments/assets/a5e2a9db-2ee2-4b1e-9f9b-6265651d99c1" />
 
 ### Visualization Panel - Unique Resolutions
 - Displays top 10 hosts with most unique resolved DNS entries
