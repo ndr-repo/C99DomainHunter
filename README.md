@@ -1,6 +1,6 @@
 # C99DomainHunter 
-Subdomain enumeration &amp; visualization tool for c99.nl. Written in PowerShell for Linux & Neo4J AuraDB.
-
+Subdomain enumeration &amp; visualization tool for api.c99.nl. Written in PowerShell for Linux & Neo4J AuraDB. 
+Created for external penetration testers, red team operators, & network security engineers.  
 
 ## Getting started
 - Clone the C99DomainHunter repository
