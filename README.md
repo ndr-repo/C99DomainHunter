@@ -1,13 +1,11 @@
 # C99DomainHunter 
 Subdomain enumeration &amp; visualization tool for c99.nl. Written in PowerShell for Linux & Neo4J AuraDB.
-
-### Getting started
-- Clone the repository
+## Getting started
+- Clone the C99DomainHunter repository
 ```
 git clone https://github.com/ndr-repo/C99DomainHunter.git
 ```
 - Add your C99.nl API key to the .key file
-  
 - Run the collection & enrichment script for your target domain.
 ```
 pwsh ./C99DomainHunter.ps1 targetDomain.tld
@@ -17,7 +15,6 @@ pwsh ./C99DomainHunter.ps1 targetDomain.tld
   - Parses results and saves enriched data to CSV.
     - Results are saved to the log folder inside your C99DomainHunter directory 
 
-
-- OPTIONAL: Visualization in AuraDB
+## Visualization in AuraDB
   - Import the enriched CSV results using the included DoH graph model
   - Create a dashboard using the included Cypher queries
